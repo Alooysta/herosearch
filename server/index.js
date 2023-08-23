@@ -9,10 +9,13 @@ const bodyParser = require('body-parser')
 const crypto = require('crypto')
 
 app.use(cors())
+app.use(bodyParser.urlencoded({extended: false }))
 app.use(bodyParser.json())
 
-const ts = new Date().getTime();
 
+
+
+const ts = new Date().getTime();
 
 //precisa ser nessa ordem, não esquece :TS, PRIVATEKEY,PUBLICKEY
 console.log(ts)
@@ -20,9 +23,7 @@ const privateKey = process.env.PRIVATE_KEY
 const publicKey = process.env.PUBLIC_KEY
 
 
-const hash = crypto.createHash('md5').update(ts + privateKey + publicKey).digest('hex')
-
-
+const hash = crypto.createHash('md5').update(ts+privateKey+publicKey).digest('hex')
 
 
 app.listen(port, hostname, () => {
@@ -32,11 +33,13 @@ app.listen(port, hostname, () => {
 
 
 app.post('/', async(req, res) => {
-
-    const {personagem} = req.body
-    const info = await axios.get(`https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=${personagem}&ts=${ts}&apikey=${publicKey}&hash=${hash}`)
-    console.log(info.data.data.results[0].description)
+    const{character} = req.body
+    const info = await axios.get(`https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=${character}&ts=${ts}&apikey=${publicKey}&hash=${hash}`)
     res.send(info.data)
-
 })
 
+app.post('/characterinfo', async(req, res) => {
+    const {id} = req.body
+    const infoId = await axios.get(`https://gateway.marvel.com:443/v1/public/characters?id=${id}&ts=${ts}&apikey=${publicKey}&hash=${hash}`)
+    res.send(infoId.data)
+})
