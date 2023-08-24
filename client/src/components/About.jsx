@@ -15,7 +15,7 @@ const About = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const response = await axios.post('http://localhost:5000/characterinfo', { id });
+            const response = await axios.post('https://marvelbasf-app.onrender.com/characterinfo', { id });
             setAboutData(response.data.data);
         };
 
