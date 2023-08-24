@@ -1,17 +1,18 @@
-import Home from "./components/Home"
-import React from 'react';
-import { Routes, Route } from 'react-router-dom'
-import About from "./components/About";
+import Home from "./Components/Home";
+import View from "./Components/View";
+import React from "react";
+import {Routes, Route} from 'react-router-dom'
+import Sobre from "./Components/Sobre";
+
 
 function App() {
   return (
     <div>
       <Routes>
-      <Route path = {'/marvel-app'} element = {<Home />} />
-      <Route path = {'/:id'} element = {<About />}  />
+      <Route path = {'/pesquisa'} element = {<Home />} />
+      <Route path = {'/:id'} element = {<Sobre />} />
       </Routes>
-
-
+      
     </div>
   );
 }
