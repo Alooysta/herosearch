@@ -17,9 +17,7 @@ Com os pedidos especificados no arquivo "Proposta front-end" enviado aos partici
 - Clicando no nome de um dos quadrinhos ele nos levará para a sua respectiva página no google.
 ![google](https://i.imgur.com/JhHxfYj.gif)
 
-## Iniciando dependencias. (Comandos necessários para abri-lo em localhost:3000)
-Caso você queira abrir o app em um localhost, deverá iniciar os seguintes npm nos respectivos diretórios.
-Não é necessário no caso do website! (Recomendado)
+## Bibliotecas Utilizadas. 
 
 - Lado do Server.
 
