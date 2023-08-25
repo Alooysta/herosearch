@@ -39,7 +39,7 @@ Não é necessário no caso do website! (Recomendado)
 
 O aplicativo roda no seguinte link: [marvelappsearch.online/marvel-app](http://marvelappsearch.online/marvel-app/) .
 - O hosting do Front End foi feita no [Hostinger](https://www.hostinger.com.br).
-- Ja o hosting do Back End foi feita no [Render](https://render.com).
+- Já o hosting do Back End foi feita no [Render](https://render.com).
 - **Importante:** Devido ao uso de server de Hosting grátis, ele fecha automaticamente após 15 minutos sem nenhum request, então ao entrar no site e fazer a primeira busca, espere 30s~90s e ela iniciará o server automaticamente!
 
   
