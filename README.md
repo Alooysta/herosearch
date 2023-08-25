@@ -13,6 +13,8 @@ Com os pedidos especificados no arquivo "Proposta front-end" enviado aos partici
 - Quando um personagem é selecionado via um Click do usuário, ele nos levará a seguinte página:
 ![sobre](https://i.imgur.com/3nSIcqZ.png)
 - Nos mostrando uma **Foto do Herói** selecionado, o seu **Nome**, uma breve **Descrição do Personagem** e os **Quadrinhos** em que ele participa, além de um botão pra voltar à **Página Inicial**. (Devido a uma limitação da API o máximo de informações que podem ser adquiridas é 20, tanto pra personagens tanto para os quadrinhos)
+- CLicando no nome de um dos quadrinhos ele nos levará para a sua respectiva página no google
+![google]((https://i.imgur.com/JhHxfYj.gif)
 
 ## Iniciando dependencias (Comandos necessários para abri-lo em localhost:3000)
 Caso você queira abrir o app em um localhost, deverá iniciar os seguintes npm nos respectivos diretórios.
