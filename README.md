@@ -13,10 +13,10 @@ Com os pedidos especificados no arquivo "Proposta front-end" enviado aos partici
 - Quando um personagem é selecionado via um Click do usuário, ele nos levará a seguinte página:
 ![sobre](https://i.imgur.com/3nSIcqZ.png)
 - Nos mostrando uma **Foto do Herói** selecionado, o seu **Nome**, uma breve **Descrição do Personagem** e os **Quadrinhos** em que ele participa, além de um botão pra voltar à **Página Inicial**. (Devido a uma limitação da API o máximo de informações que podem ser adquiridas é 20, tanto pra personagens tanto para os quadrinhos)
-- CLicando no nome de um dos quadrinhos ele nos levará para a sua respectiva página no google
+- CLicando no nome de um dos quadrinhos ele nos levará para a sua respectiva página no google.
 ![google](https://i.imgur.com/JhHxfYj.gif)
 
-## Iniciando dependencias (Comandos necessários para abri-lo em localhost:3000)
+## Iniciando dependencias. (Comandos necessários para abri-lo em localhost:3000)
 Caso você queira abrir o app em um localhost, deverá iniciar os seguintes npm nos respectivos diretórios.
 Não é necessário no caso do website! (Recomendado)
 
@@ -26,7 +26,7 @@ Não é necessário no caso do website! (Recomendado)
 - [Body-parser](https://www.npmjs.com/package/body-parser) - Uma biblioteca 'npm' usada para processar dados enviados por meio de um corpo de solicitação HTTP.
 - [Cors](https://www.npmjs.com/package/cors) - O CORS é uma especificação do W3C e faz uso de headers do HTTP para informar aos navegadores se determinado recurso pode ser ou não acessado(mensagens de erro detalhadas).
 - [Cypto-js](https://www.npmjs.com/package/crypto-js) - Usado pra criar o md5 hash usado pra pegar os dados da API.
-- [Dotenv](https://www.npmjs.com/package/dotenv) - Processa os dados inseridos no .env, assim as keys da API ficam escondidas! (Pra não cair nas mãos erradas)
+- [Dotenv](https://www.npmjs.com/package/dotenv) - Processa os dados inseridos no .env, assim as keys da API ficam escondidas! (Pra não cair nas mãos erradas).
 - [Express](https://www.npmjs.com/package/express) - O Express é um framework JavaScript que facilita a criação de aplicativos web utilizando o Node. js.
 - [Nodemon](https://www.npmjs.com/package/nodemon) - Automaticamente reinicia o app node quando a mudança dos arquivos são reconhecidas nos diretórios.
 
@@ -37,9 +37,9 @@ Não é necessário no caso do website! (Recomendado)
 
 ## Website
 
-O aplicativo roda no seguinte link: [marvelappsearch.online/marvel-app](http://marvelappsearch.online/marvel-app/) 
-- O hosting do Front End foi feita no [Hostinger](https://www.hostinger.com.br)
-- Ja o hosting do Back End foi feita no [Render](https://render.com)
+O aplicativo roda no seguinte link: [marvelappsearch.online/marvel-app](http://marvelappsearch.online/marvel-app/) .
+- O hosting do Front End foi feita no [Hostinger](https://www.hostinger.com.br).
+- Ja o hosting do Back End foi feita no [Render](https://render.com).
 - **Importante:** Devido ao uso de server de Hosting grátis, ele fecha automaticamente após 15 minutos sem nenhum request, então ao entrar no site e fazer a primeira busca, espere 30s~90s e ela iniciara o server automaticamente!
 
   
