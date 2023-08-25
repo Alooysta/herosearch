@@ -1,5 +1,6 @@
 # Projeto Marvel estágio BASF - [Link Site](https://marvelappsearch.online/marvel-app/).
 Projeto FullStack criado por Guilherme de Sousa Santos usando [React](https://react.dev) e [Node.js](https://nodejs.org/en).
+- Importante: Devido ao uso de server de Hosting grátis, ele fecha automaticamente após 15 minutos sem nenhum request, então ao entrar no site e fazer a primeira busca, espere 30s~90s e ela iniciará o server automaticamente!
 
 ## Motivação
 
