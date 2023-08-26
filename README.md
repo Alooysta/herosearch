@@ -1,10 +1,10 @@
 # Projeto Marvel estágio BASF - [Link Site](https://marvelappsearch.online/marvel-app/).
-Projeto FullStack criado por Guilherme de Sousa Santos usando [React](https://react.dev) e [Node.js](https://nodejs.org/en).
+Projeto FrontEnd e BackEnd criado por Guilherme de Sousa Santos usando [React](https://react.dev) e [Node.js](https://nodejs.org/en).
 - Importante: Devido ao uso de server de Hosting grátis, o servidor fecha automaticamente após 15 minutos sem nenhum request, então, ao entrar no site e fazer a primeira busca, espere 30s~90s e ela iniciará o server automaticamente!
 
 ## Motivação
 
-Com os pedidos especificados no arquivo "Proposta front-end" enviado aos participantes no e-mail, decidi corrensponder as exigências e ir além do pedido, criando uma "Search Engine" da Marvel, com uma aplicação Full Stack (Front End + Back End).
+Com os pedidos especificados no arquivo "Proposta front-end" enviado aos participantes no e-mail, decidi corrensponder as exigências e ir além do pedido, criando uma "Search Engine" da Marvel, com uma aplicação Front End + Back End.
 
 ## Funcionamento
 ### Página Principal.
