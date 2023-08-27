@@ -1,5 +1,5 @@
 # Projeto Marvel estágio BASF - [Link Site](https://marvelappsearch.online/marvel-app/).
-Projeto FrontEnd e BackEnd criado por Guilherme de Sousa Santos usando [React](https://react.dev) e [Node.js](https://nodejs.org/en).
+Projeto FrontEnd e BackEnd criado por Guilherme de Sousa Santos usando [React](https://react.dev)
 ## Importante: Devido ao uso de server de Hosting grátis, o servidor fecha automaticamente após 15 minutos sem nenhum request, então, ao entrar no site e fazer a primeira busca, espere 30s~90s e ela iniciará o server automaticamente!
 
 ## Motivação
@@ -38,7 +38,7 @@ Com os pedidos especificados no arquivo "Proposta front-end" enviado aos partici
 
 O aplicativo roda no seguinte link: [marvelappsearch.online/marvel-app](http://marvelappsearch.online/marvel-app/) .
 - O hosting do Front End foi feita no [Hostinger](https://www.hostinger.com.br).
-- Já o hosting do Back End foi feita no [Render](https://render.com).
+- Já o Back End foi feito com o Node.js e hosteado no [Render](https://render.com).
 - **Importante:** Devido ao uso de server de Hosting grátis, o servidor fecha automaticamente após 15 minutos sem nenhum request, então, ao entrar no site e fazer a primeira busca, espere 30s~90s e ela iniciará o server automaticamente!
 
   
