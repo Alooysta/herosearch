@@ -1,6 +1,6 @@
 # Projeto Marvel estágio BASF - [Link Site](https://marvelappsearch.online/marvel-app/).
 Projeto FrontEnd e BackEnd criado por Guilherme de Sousa Santos usando [React](https://react.dev)
-## Importante: Devido ao uso de server de Hosting grátis, o servidor fecha automaticamente após 15 minutos sem nenhum request, então, ao entrar no site e fazer a primeira busca, espere 30s~90s e ela iniciará o server automaticamente!
+## Importante: Site de Hosting está fechado devido ao aumento de custo do website!! (Com as devidas mudanças no arquivo ainda é possível rodar em uma máquina local)
 
 ## Motivação
 
